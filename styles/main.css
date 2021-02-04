@@ -146,6 +146,10 @@ article h2.open-forever{
   text-align: center;
 }
 
+button {
+  cursor: pointer;
+}
+
 .product{
   margin-right: 1em;
   padding: 1em;
