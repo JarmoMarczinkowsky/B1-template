@@ -209,11 +209,53 @@ footer{
   display: block;
 }
 
+.cartPagina .titelRow, .itemRij {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartPagina h4 {
+  margin-bottom: 2px;
+}
+
+.cartPagina p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+
+.itemRij {
+  border-top: 2px solid;
+  border-bottom: 2px solid; 
+  
+}
+
+.eersteRij h4 {
+  margin-right: 195px;
+}
+.eersteRij {
+  margin-right: 290px;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomRow .derdeRij{
+  margin-left: 747px;
+  width: 80px;
+}
+
+.bottomRow h4 {
+  margin-top: 2px;
+}
 
 .contentpDP{
   display: flex;
   justify-content: space-between;
 }
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
